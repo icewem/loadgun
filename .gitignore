@@ -1,0 +1,20 @@
+cat > .gitignore <<'EOF'
+# Go build artifacts
+*.exe
+*.test
+*.out
+bin/
+dist/
+
+# Go workspace
+go.work
+go.work.sum
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+EOF
